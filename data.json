@@ -1,0 +1,53 @@
+{
+  "profile": {
+    "name": "Hongbin Lai",
+    "affiliation": "Peking University",
+    "role": "M.S. Student in Computer Science",
+    "location": "Beijing, China",
+    "email": "hongbinlai2024@stu.pku.edu.cn",
+    "github": "https://github.com/HoBinspire",
+    "scholar": "https://scholar.google.com/citations?user=D1ESeY0AAAAJ&hl=en",
+    "avatar": "profile.jpg"
+  },
+  "introduction": "Hello, my name is Hongbin Lai. I am currently pursuing an M.S. at Peking University. My research interests lie in Multi-Agent Systems, LLM Agents, and Multimodal Learning for Molecular Recognition. As I am still at the beginning of my research journey, I am eager to learn, explore, and grow, and I would sincerely appreciate guidance, discussions, and opportunities for collaboration.",
+  "education": [
+    {
+      "degree": "M.S.",
+      "period": "2024.09 - 2027.07",
+      "institution": "Peking University",
+      "school": "School of Software and Microelectronics",
+      "major": "M.S. in Electronic Information"
+    },
+    {
+      "degree": "B.S.",
+      "period": "2020.09 - 2024.07",
+      "institution": "Beijing University of Posts and Telecommunications",
+      "school": "School of Computer Science (National Model Software College)",
+      "major": "B.S. in Software Engineering"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025.5",
+      "content": "Our paper on Efficient Graph Continual Learning is accepted by <span class=\"highlight\">ICML 2025</span> (Co-first Author)."
+    },
+    {
+      "date": "2026.2",
+      "content": "Our paper MolRecBench-Wild received recommendation to <span class=\"highlight\">CVPR 2026 Findings</span> (Co-first Author)."
+    },
+    {
+      "date": "2026.3",
+      "content": "Our paper StackPlanner is under review for <span class=\"highlight\">ACL 2026</span> (Co-first Author)."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Efficient Graph Continual Learning via Lightweight Graph Neural Tangent Kernels-based Dataset Distillation",
+      "venue": "ICML 2025",
+      "authors": "Co-first Author",
+      "code": "#",
+      "paper": "https://openreview.net/pdf?id=JblpkLmvPg",
+      "thumbnail": "publication1.jpg"
+    }
+  ]
+}

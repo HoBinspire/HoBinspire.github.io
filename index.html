@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="icon" type="image/png" href="images/icon.png?v=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <script>
+        // 内联数据（由 build.js 自动生成）
+        window.siteData = {
+  "profile": {
+    "name": "Hongbin Lai",
+    "affiliation": "Peking University",
+    "role": "M.S. Student in Computer Science",
+    "location": "Beijing, China",
+    "email": "hongbinlai2024@stu.pku.edu.cn",
+    "github": "https://github.com/HoBinspire",
+    "scholar": "https://scholar.google.com/citations?user=D1ESeY0AAAAJ&hl=en",
+    "avatar": "profile.jpg"
+  },
+  "introduction": "Hello, my name is Hongbin Lai. I am currently pursuing an M.S. at Peking University. My research interests lie in Multi-Agent Systems, LLM Agents, and Multimodal Learning for Molecular Recognition. As I am still at the beginning of my research journey, I am eager to learn, explore, and grow, and I would sincerely appreciate guidance, discussions, and opportunities for collaboration.",
+  "education": [
+    {
+      "degree": "M.S.",
+      "period": "2024.09 - 2027.07",
+      "institution": "Peking University",
+      "school": "School of Software and Microelectronics",
+      "major": "M.S. in Electronic Information"
+    },
+    {
+      "degree": "B.S.",
+      "period": "2020.09 - 2024.07",
+      "institution": "Beijing University of Posts and Telecommunications",
+      "school": "School of Computer Science (National Model Software College)",
+      "major": "B.S. in Software Engineering"
+    }
+  ],
+  "news": [
+    {
+      "date": "2025.5",
+      "content": "Our paper on Efficient Graph Continual Learning is accepted by <span class=\"highlight\">ICML 2025</span> (Co-first Author)."
+    },
+    {
+      "date": "2026.2",
+      "content": "Our paper MolRecBench-Wild received recommendation to <span class=\"highlight\">CVPR 2026 Findings</span> (Co-first Author)."
+    },
+    {
+      "date": "2026.3",
+      "content": "Our paper StackPlanner is under review for <span class=\"highlight\">ACL 2026</span> (Co-first Author)."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Efficient Graph Continual Learning via Lightweight Graph Neural Tangent Kernels-based Dataset Distillation",
+      "venue": "ICML 2025",
+      "authors": "Co-first Author",
+      "code": "#",
+      "paper": "https://openreview.net/pdf?id=JblpkLmvPg",
+      "thumbnail": "publication1.jpg"
+    }
+  ]
+};
+    </script>
+    </head>
+<body>
+    <!-- 背景装饰 -->
+    <div class="background-decoration">
+        <div class="decoration-circle circle-1"></div>
+        <div class="decoration-circle circle-2"></div>
+        <div class="decoration-circle circle-3"></div>
+    </div>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-link active">Homepage</a>
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#education" class="nav-link">Educations</a>
+            <a href="#news" class="nav-link">News</a>
+            <a href="#publications" class="nav-link">Publications</a>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <div class="main-container">
+        <!-- 左侧内容区 -->
+        <main class="content-area">
+            <!-- 介绍部分 - 修改个人介绍 -->
+            <section id="about" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-icon">✨</span>
+                        Introduction
+                    </h2>
+                </div>
+                <div class="section-body">
+                    <p class="section-text" id="introduction-text">
+                        <!-- 数据从 data.json 加载 -->
+                    </p>
+                </div>
+            </section>
+
+            <!-- 教育背景 - 修改教育经历 -->
+            <section id="education" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-icon">🎓</span>
+                        Educations
+                    </h2>
+                </div>
+                <div class="section-body">
+                    <div class="education-timeline" id="education-timeline">
+                        <!-- 数据从 data.json 加载 -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- 新闻 - 修改新闻动态 -->
+            <section id="news" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-icon">📢</span>
+                        News
+                    </h2>
+                </div>
+                <div class="section-body">
+                    <div class="news-list" id="news-list">
+                        <!-- 数据从 data.json 加载 -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- 出版物 - 修改论文列表 -->
+            <section id="publications" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-icon">📝</span>
+                        Publications
+                    </h2>
+                </div>
+                <div class="section-body">
+                    <div class="publications-list" id="publications-list">
+                        <!-- 数据从 data.json 加载 -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- 右侧个人资料卡片 -->
+        <aside class="profile-card">
+            <div class="profile-picture-wrapper">
+                <div class="profile-picture">
+                    <img src="" alt="Profile Picture" id="profile-img">
+                    <!-- 如果没有图片，显示占位符 -->
+                    <div class="profile-placeholder" id="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="profile-border"></div>
+                </div>
+                <!-- 樱花瓣特效容器 -->
+                <div class="cherry-blossom-container" id="cherry-blossom-container"></div>
+            </div>
+            <div class="profile-info">
+                <!-- 数据从 data.json 加载 -->
+                <h1 class="profile-name" id="profile-name"></h1>
+                <p class="profile-affiliation" id="profile-affiliation"></p>
+                <p class="profile-role" id="profile-role"></p>
+            </div>
+            
+            <div class="contact-info" id="contact-info">
+                <!-- 数据从 data.json 加载 -->
+            </div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // 使用内联数据
+        (function() {
+            if (window.siteData) {
+                // 等待 script.js 加载完成并渲染
+                function initData() {
+                    if (typeof renderAll === 'function') {
+                        // 直接设置数据并渲染
+                        siteData = window.siteData;
+                        renderAll();
+                        return true;
+                    }
+                    return false;
+                }
+                
+                // 尝试立即执行
+                if (!initData()) {
+                    // 如果失败，等待 DOM 和脚本加载
+                    var attempts = 0;
+                    var maxAttempts = 50;
+                    var checkInterval = setInterval(function() {
+                        attempts++;
+                        if (initData() || attempts >= maxAttempts) {
+                            clearInterval(checkInterval);
+                        }
+                    }, 50);
+                    
+                    // 也监听 DOMContentLoaded
+                    if (document.readyState === 'loading') {
+                        document.addEventListener('DOMContentLoaded', function() {
+                            if (initData()) {
+                                clearInterval(checkInterval);
+                            }
+                        });
+                    }
+                }
+            }
+        })();
+    </script>
+
+</body>
+</html>
